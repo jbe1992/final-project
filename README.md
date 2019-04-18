@@ -3,17 +3,24 @@
 
 ## Overview
 
-Electronic payments are growing so fast 11% from 2016 to 2017 (Mckinsey study graphic here). So I'm really worried about the electronic payments field and I want to create an algorithm to predict if a transaction is a fraud or not. I'm going to focus on the credit card fraud (but I think that replicate the process in mobile payment would be something similar).
+Electronic payments are growing so fast 11% from 2016 to 2017 (Mckinsey study graphic here). So I'm really worried about the electronic payments field and I want to create an algorithm to predict if a transaction is a fraud or not. 
+
+I'm going to focus on the credit card fraud (but I think that replicate the process in mobile payment would be something similar).
+
 I want to be able to build a model that's able to classify correctly (True positives and true negatives in the confusion matrix) the 95% of the sample.
 
 ## Data Preparation
 
 Overview:
-I found this dataset in [Kaggle] (https://www.kaggle.com/ananta/credit-card-data) uploaded by Anant Prakash Awasthi. The dataset's a dummy Credit Card Database with 4 tables (need to define the type of each variable):
-⋅⋅* **Card Base:** Contains info about the Card Number, Card Family (Premium, Gold, and Platinum), Credit Limit, and Customer ID
-⋅⋅* **Customer Base:** Contains info about the Customer ID, Age, Customer Segment, Customer Vintage Group (VG1 for Diamond, VG2 for Platinum, VG3 for Gold)
-⋅⋅* **Transaction Base:** Contains info about all the Transaction ID, Transaction Date, Credit Card ID, Transaction Value and  Transaction Segment.
-⋅⋅* **Fraud Base:** Contains info about the Transaction ID and if the transaction is flagged as fraud.
+I found this [dataset in Kaggle](https://www.kaggle.com/ananta/credit-card-data "Credit Card Data from Kaggle") uploaded by Anant Prakash Awasthi. The dataset's a dummy Credit Card Database with 4 tables (need to define the type of each variable):
+
+  * **Card Base:** Contains info about the Card Number, Card Family (Premium, Gold, and Platinum), Credit Limit, and Customer ID
+
+  * **Customer Base:** Contains info about the Customer ID, Age, Customer Segment, Customer Vintage Group (VG1 for Diamond, VG2 for Platinum, VG3 for Gold)
+
+  * **Transaction Base:** Contains info about all the Transaction ID, Transaction Date, Credit Card ID, Transaction Value and  Transaction Segment.
+
+  * **Fraud Base:** Contains info about the Transaction ID and if the transaction is flagged as fraud.
 
 ## Data Ingestion & Database
 
