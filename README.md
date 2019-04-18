@@ -11,8 +11,7 @@ I want to be able to build a model that's able to classify correctly (True posit
 
 ## Data Preparation
 
-Overview:
-I found this [dataset in Kaggle](https://www.kaggle.com/ananta/credit-card-data "Credit Card Data from Kaggle") uploaded by Anant Prakash Awasthi. The dataset's a dummy Credit Card Database with 4 tables (need to define the type of each variable):
+I found this [public dataset in Kaggle](https://www.kaggle.com/ananta/credit-card-data "Credit Card Data from Kaggle") uploaded by Anant Prakash Awasthi. The dataset's a dummy Credit Card Database with 4 tables (need to define the type of each variable):
 
   * **Card Base:** Contains info about the Card Number, Card Family (Premium, Gold, and Platinum), Credit Limit, and Customer ID
 
