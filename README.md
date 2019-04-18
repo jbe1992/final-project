@@ -1,25 +1,19 @@
-# TitleToBeDefined - Jordi Bayer
-
-Data Analytics Full Time
+# TitleToBeDefined - Jordi Bayer 
+### (Ironhack Data Analytics Full Time)
 
 ## Overview
 
-Include the following points in your overview:
-
-What data/business/research/personal question you would like to answer? Make sure the question description is human-friendly because you will have non-tech audience to see your final project presentation.
-Did you understand the context for the question and the scientific or business application?
-What is the hypothesis you would like to test in order to answer your question? Frame your hypothesis with statistical/data languages (i.e. define Null and Alternative Hypothesis). You can use formulas if you want but that is not required.
-Did you consider whether the question could be answered with the available data?
-How will you test your hypothesis?
-How will you test your success?
+Electronic payments are growing so fast 11% from 2016 to 2017 (Mckinsey study graphic here). So I'm really worried about the electronic payments field and I want to create an algorithm to predict if a transaction is a fraud or not. I'm going to focus on the credit card fraud (but I think that replicate the process in mobile payment would be something similar).
+I want to be able to build a model that's able to classify correctly (True positives and true negatives in the confusion matrix) the 95% of the sample.
 
 ## Data Preparation
 
 Overview:
-
-What is your dataset about?
-Where/how did you obtain your dataset? It can be either a public dataset or collected with API/web scraping. Provide a link if possible.
-General description of the dataset such as the size, complexity, data types, etc.
+I found this dataset in [Kaggle] (https://www.kaggle.com/ananta/credit-card-data) uploaded by Anant Prakash Awasthi. The dataset's a dummy Credit Card Database with 4 tables (need to define the type of each variable):
+⋅⋅* **Card Base:** Contains info about the Card Number, Card Family (Premium, Gold, and Platinum), Credit Limit, and Customer ID
+⋅⋅* **Customer Base:** Contains info about the Customer ID, Age, Customer Segment, Customer Vintage Group (VG1 for Diamond, VG2 for Platinum, VG3 for Gold)
+⋅⋅* **Transaction Base:** Contains info about all the Transaction ID, Transaction Date, Credit Card ID, Transaction Value and  Transaction Segment.
+⋅⋅* **Fraud Base:** Contains info about the Transaction ID and if the transaction is flagged as fraud.
 
 ## Data Ingestion & Database
 
