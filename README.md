@@ -1,4 +1,4 @@
-# TitleToBeDefined
+# TitleToBeDefined - Jordi Bayer
 ### (Ironhack Data Analytics Full Time)
 
 ## Overview
