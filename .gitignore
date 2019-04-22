@@ -15,3 +15,4 @@
 # End of https://www.gitignore.io/api/jupyternotebooks
 __pycache__
 ~$FraudBase.xlsx
+Trash
