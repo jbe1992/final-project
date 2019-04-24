@@ -1,4 +1,4 @@
-# TitleToBeDefined - Jordi Bayer
+# Credit Card Analysis and Fraud Detection - Jordi Bayer
 ### (Ironhack Data Analytics Full Time)
 
 ## Overview
