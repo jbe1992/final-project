@@ -24,7 +24,6 @@ I found this [public dataset in Kaggle](https://www.kaggle.com/ananta/credit-car
 
 ## Data Analysis
 
-
 First of all, we have to do some descriptive analysis, number of cards, number of each card type, card type by age, etc...
 Check if there are imbalanced classes.
 I used Machine Learning, tried some different models (K Nearest Neighbors, Random Forest Classifier, XGBoost).
@@ -37,8 +36,6 @@ For further explanation of the result of each model see [Credit Card Analysis an
 
 ## Conclusion
 
-Summarize your data analysis result.
-State your conclusion of your hypothesis testing.
-Interpret your findings in terms of the human-understandable question you try to answer.
-What are the next steps?
-
+Be really careful when doing oversampling (**ALWAYS DO** the train_test_split **BEFORE** doing the oversampling).
+There's no seasonality in the database.
+The models are not performing well, I think that how it is an artificial dataset created to train data wrangling and data visualization there's no correlation between the features and the target.
