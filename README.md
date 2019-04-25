@@ -21,30 +21,19 @@ I found this [public dataset in Kaggle](https://www.kaggle.com/ananta/credit-car
 
   * **Fraud Base:** Contains info about the Transaction ID and if the transaction is flagged as fraud.
 
-## Data Ingestion & Database
-
-If you downloaded a dataset (either public or private), describe where you downloaded it and include the command to load the dataset.
-If you obtain the data via API/web scraping, provide the scripts.
-Provide a schema of your tables.
-Data Wrangling and Cleaning
-
-Your full process of data wrangling and cleaning.
-
-Document your workflow and thinking process.
 
 ## Data Analysis
 
-Overview the general steps you will go through to analyze your data in order to test your hypothesis.
-Document each step of your data exploration and analysis.
-Print charts to demonstrate the effect of your work. Charts make your presentation look good too.
-If you use ML in your final project, also describe your feature selection process.
+
+First of all, we have to do some descriptive analysis, number of cards, number of each card type, card type by age, etc...
+Check if there are imbalanced classes.
+I used Machine Learning, tried some different models (K Nearest Neighbors, Random Forest Classifier, XGBoost).
+For the feature selection, I did a plot of the explained variance for each feature. I only had 6 features so I decided to use all of them.
 
 ## Model Training and Evaluation
 
-Train your ML model, produce results, and evaluate.
-This is an iterative process. Try your best to improve your model performance by:
-Try different models and select one that is the simplest yet produce the best result.
-Try advanced techniques and see if they improve the result.
+I trained the models but didn't get a really good result. I did some hyperparameter tunning but didn't improve that much.
+For further explanation of the result of each model see [Credit Card Analysis and Fraud Detection](../master/Credit%20Card%20Analysis%20and%20Fraud%20Detection.ipynb).
 
 ## Conclusion
 
