@@ -3,7 +3,11 @@
 
 ## Overview
 
-Electronic payments are growing so fast 11% from 2016 to 2017 (Mckinsey study graphic here). So I'm really worried about the electronic payments field and I want to create an algorithm to predict if a transaction is a fraud or not. 
+Electronic payments are growing so fast 11% from 2016 to 2017. There's a forecast that this market will grow at +9% yearly so it's an important field to be looking. 
+
+![Mckinsey global electronic payments](Complementary%20info/SVGZ-Global-Payments-Map-2018-Ex1.svg "Mckinsey global electronic payments")
+
+So I'm really worried about the electronic payments field and I want to create an algorithm to predict if a transaction is a fraud or not. 
 
 I'm going to focus on the credit card fraud (but I think that replicate the process in mobile payment would be something similar).
 
@@ -26,10 +30,12 @@ I found this [public dataset in Kaggle](https://www.kaggle.com/ananta/credit-car
 
 First of all, we have to do some descriptive analysis, number of cards, number of each card type, card type by age, etc...
 Check if there are imbalanced classes.
+![Imbalance classes](Graficos/fraudimbalance.png "Imbalance Classes")
 
 I used Machine Learning, tried some different models (K Nearest Neighbors, Random Forest Classifier, XGBoost).
 
 For the feature selection, I did a plot of the explained variance for each feature. I only had 6 features so I decided to use all of them.
+![Imbalance classes](Graficos/explainedvariance.png "Imbalance Classes")
 
 ## Model Training and Evaluation
 
